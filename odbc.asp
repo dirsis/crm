@@ -200,6 +200,7 @@ function menu
         <ul class="dropdown-menu">
           <li><a href="abcmailing.asp">Nuevo</a></li>
 		  <%if session("idpass") <>"" and session("nivel")<=2 then%>
+          <li><a href="abcexpress.asp">Carga Express</a></li>
           <li><a href="mailing.asp">Lista</a></li>
 		  <%end if%>
         </ul>
